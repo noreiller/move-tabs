@@ -1,0 +1,9 @@
+{
+  "name": "move-tabs", 
+  "fullName": "Move Tabs", 
+  "description": "Move tabs, an extension that helps moving tabs. Use 'Ctrl + left/right/home/end' keys to move your tabs.",
+  "author": "Aur\u00e9lien MANCA (http://www.amanca.fr)", 
+  "license": "MPL", 
+  "version": "0.4.1",
+  "id": "jid0-M9B8XNbKtIgrXBwqxAu4Qy8d47Q"
+}
