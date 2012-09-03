@@ -1,9 +1,28 @@
 {
-  "name": "move-tabs", 
-  "fullName": "Move Tabs", 
-  "description": "Move tabs, an extension that helps moving tabs. Use 'Ctrl + left/right/home/end' keys to move your tabs.",
-  "author": "Aur\u00e9lien MANCA (http://www.amanca.fr)", 
-  "license": "MPL", 
-  "version": "0.4.1",
-  "id": "jid0-M9B8XNbKtIgrXBwqxAu4Qy8d47Q"
+	"name": "move-tabs",
+	"fullName": "Move Tabs",
+	"description": "Move tabs allows you to move your tabs with keyboard shortcuts. Use 'Ctrl + left/right/home/end' keys to move your tabs.",
+	"author": "Aur\u00e9lien MANCA (http://www.amanca.fr)",
+	"license": "MPL",
+	"version": "0.5",
+	"id": "jid0-M9B8XNbKtIgrXBwqxAu4Qy8d47Q",
+	"preferences": [{
+		"name": "forceDocumentFocus",
+		"type": "bool",
+		"value": false,
+		"description": "Force the document to have the focus to move tabs.",
+		"title": "Prevent moving tabs when using the navigation or other toolbars?"
+	}, {
+		"name": "useAutoPin",
+		"type": "bool",
+		"value": false,
+		"description": "Auto pin moving tabs?",
+		"title": "Pin tab when moving a tab in the pinned tabs area."
+	}, {
+		"name": "debugMode",
+		"type": "bool",
+		"value": false,
+		"description": "Log info in the console (debug).",
+		"title": "Verbose logs?"
+	}]
 }
